@@ -24,7 +24,6 @@ on:
           - VIKINGYFY/immortalwrt
           - immortalwrt/immortalwrt
           - LiBwrt/openwrt-6.x
-          - openwrt/openwrt
       BRANCH:
         default: '25.12-nss'
         required: true
