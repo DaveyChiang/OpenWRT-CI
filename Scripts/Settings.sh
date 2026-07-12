@@ -62,8 +62,3 @@ if [[ "${WRT_TARGET^^}" == *"QUALCOMMAX"* ]]; then
 		echo "qualcommax set up nowifi successfully!"
 	fi
 fi
-
-# 添加 AdBlock-Fast 插件及其简体中文包
-echo 'CONFIG_PACKAGE_adblock-fast=y' >> .config
-echo 'CONFIG_PACKAGE_luci-app-adblock-fast=y' >> .config
-echo 'CONFIG_PACKAGE_luci-i18n-adblock-fast-zh-cn=y' >> .config
