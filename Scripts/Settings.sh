@@ -30,8 +30,6 @@ elif [ -f "$WIFI_UC" ]; then
 	#没有router-tool无线初始化逻辑时，直接设置mac80211默认值
 	#兼容源码中等号赋值和空格分隔的两种WIFI配置格式
 	sed -i "s/ssid='.*'/ssid='$WRT_SSID'/g; s/key='.*'/key='$WRT_WORD'/g; s/ssid '.*'/ssid '$WRT_SSID'/g; s/key '.*'/key '$WRT_WORD'/g" "$WIFI_UC"
-	#修改WIFI地区为美国
-	sed -i "s|^set \${s}\.country=.*|set \${s}.country='US'|" "$WIFI_UC"
 fi
 
 CFG_FILE="./package/base-files/files/bin/config_generate"
