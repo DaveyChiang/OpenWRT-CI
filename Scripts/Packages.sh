@@ -62,7 +62,7 @@ UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"
 # UPDATE_PACKAGE "passwall" "Openwrt-Passwall/openwrt-passwall" "main" "pkg"
 # UPDATE_PACKAGE "passwall2" "Openwrt-Passwall/openwrt-passwall2" "main" "pkg"
 
-# UPDATE_PACKAGE "diskmanager" "4IceG/luci-app-mini-diskmanager" "main"
+UPDATE_PACKAGE "diskmanager" "4IceG/luci-app-mini-diskmanager" "main"
 # UPDATE_PACKAGE "easytier" "EasyTier/luci-app-easytier" "main"
 # UPDATE_PACKAGE "qmodem" "FUjr/QModem" "main"
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "axonhub gecoosac miniupnpd sing-box luci-app-homeproxy luci-app-timewol luci-app-upnp luci-app-wolplus luci-app-wolultra"
@@ -76,7 +76,7 @@ UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "axonhub gecoosac miniupn
 # UPDATE_PACKAGE "ddns-go" "sirpdboy/luci-app-ddns-go" "main"
 # UPDATE_PACKAGE "netspeedtest" "sirpdboy/netspeedtest" "main" "" "homebox ookla-speedtest"
 # UPDATE_PACKAGE "netwizard" "sirpdboy/luci-app-netwizard" "main"
-# UPDATE_PACKAGE "partexp" "sirpdboy/luci-app-partexp" "main"
+UPDATE_PACKAGE "partexp" "sirpdboy/luci-app-partexp" "main"
 # UPDATE_PACKAGE "timecontrol" "sirpdboy/luci-app-timecontrol" "main"
 
 # UPDATE_PACKAGE "natmapt" "muink/openwrt-natmapt" "master"
